@@ -1,0 +1,155 @@
+header  {
+    margin-top: -22px;
+    padding-top : 10px;
+    margin-left : -8px;
+    margin-right : -8px;
+    padding-bottom : 5px;
+    overflow : visible;
+    background-color : black;
+}
+
+.website_header  {
+    text-align : center;
+    font-family : "garamond";
+    color : white;
+    animation : on_open 1s;
+}
+
+@keyframes on_open  {
+    from  {
+        transform: scalex(10000%);
+        opacity : 0%;
+    }
+    to  {
+        opacity : 100%;
+    }
+}
+
+nav  {
+    position : -webkit-sticky;
+    position : sticky;
+    margin-left : -8px;
+    margin-right : -8px;
+    top : 0;
+    box-sizing : border-box;
+    height : 40px;
+    width : 101.05%;
+    background-color : black;
+}
+
+.nav_link  {
+    display : inline-block;
+    box-sizing : border-box;
+    height : 40px;
+    width : 25%;
+    padding-top: 10px;
+    padding-left : 20px;
+    padding-right : 20px;
+    background-color : black;
+    border : 2px dotted white;
+    color : white;
+    font-family: sans-serif, "verdana";
+    text-decoration : none;
+    text-align : center;
+}
+
+.nav_link:hover  {
+    display : inline-block;
+    box-sizing : border-box;
+    height : 40px;
+    width : 25%;
+    padding-top: 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    background-color : rgb(35, 43, 59);
+    color : white;
+    font-family: sans-serif, "verdana";
+    text-decoration : none;
+    text-align : center;
+}
+
+body  {
+    background-color : rgb(247, 153, 106);
+}
+
+.sy_introduction  {
+    margin-left : 80px;
+    margin-right : 80px;
+    text-align : center;
+    font-size : 20px;
+    font-family : Arial Narrow, sans-serif;
+}
+
+.content_title  {
+    text-align : center;
+    font-size: 28px;
+}
+
+.sy_title  {
+    text-align : center;
+    font-size: 40px;
+}
+
+.content_sep  {
+    width : 100%;
+    height : 0px;
+    border-top : 3px dashed;
+}
+
+.sy_sep  {
+    width : 100%;
+    height : 0px;
+    border-top : 6px solid;
+}
+
+.content_holder  {
+    display : inline-block;
+    box-sizing : border-box;
+    text-align  : center;
+}
+
+iframe  {
+    border-radius : 30px;
+}
+
+video  {
+    border-radius : 30px;
+}
+
+div:hover iframe  {
+    transform: translate(-10px, -10px);
+    box-shadow : 5px 10px;
+}
+
+h4  {
+    font-size: 23px;
+}
+
+main  {
+    margin-left : -8px;
+    margin-right : -8px;    
+}
+
+footer  {
+    box-sizing : border-box;
+    margin-left : -8px;
+    margin-right : -8px;
+    margin-bottom : -7px;
+    height : 110px;
+    background-color: black;
+}
+
+.footer_text  {
+    float : left;
+    clear : left;
+    color : white;
+    margin-bottom : 0px;
+    margin-top : 8.5px;
+    margin-left : 10px;
+}
+#email  {
+    float : right;
+    margin-right : 10px;
+    text-decoration: none;
+    color : white;
+}
